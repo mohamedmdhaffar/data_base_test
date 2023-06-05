@@ -1,0 +1,118 @@
+@import url('https://fonts.cdnfonts.com/css/forzan');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@300&display=swap');
+
+
+body
+{
+    text-align: center;
+    background-color: #F2E3DB;
+}
+
+/* top border style */
+header 
+{
+    background-color: #C5A880;
+    color: #fff;
+    padding: 20px;
+}
+.top-banner 
+{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation ul 
+{
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+.navigation li 
+{
+  margin: 0 10px;
+  font-family: sans-serif, "Manrope";
+}
+.navigation a 
+{
+  color: black;
+  text-decoration: none;
+  font-weight: 300;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+.navigation a:hover 
+{
+  background-color: #f2e3db8a;
+}
+
+
+
+
+
+
+/* general box style  */
+.general_box
+{
+    max-width: auto;
+    background-color: #BFCCB5;
+    margin: 5rem;
+    padding: 2rem;
+    border: none;
+    border-radius: 25px;
+    transition: .5s;
+    box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+}
+.general_box:hover
+{
+    transform: translate(0px, -8px);
+}
+.general_box h1
+{
+    font-family: sans-serif, 'Manrope';
+    font-weight: 500;
+    font-size: x-large;
+    margin: 3rem;
+}
+
+
+.signIn_container {
+	background-color: #fff;
+	max-width: 450px;
+	margin: 0 auto;
+	padding: 50px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	border-radius: 25px;
+}
+h1 {
+	text-align: center;
+	margin-top: 0;
+}
+
+input{
+	display: block;
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	border: none;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+	font-size: 16px;
+}
+input[type="submit"] {
+	background-color: #C5A880;
+	color: #fff;
+	border: none;
+	padding: 10px 20px;
+	border-radius: 10px;
+	font-size: 16px;
+	cursor: pointer;
+	transition: .5s;
+}
+input[type="submit"]:hover {
+	background-color: #BFCCB5   ;
+    transform: translate(0px, -4px);
+}
